@@ -1,0 +1,23 @@
+{
+  "id": "app.kalan.nutrition",
+  "name": "Kalan - Kalori & Beslenme Takibi",
+  "short_name": "Kalan",
+  "description": "Modern Türkçe Günlük Kalori ve Beslenme Takip Uygulaması",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F6F7F4",
+  "theme_color": "#2D6A4F",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+
+    <!-- Group for smooth scaling and centering -->
+    <group
+        android:pivotX="68"
+        android:pivotY="64"
+        android:translateX="-4"
+        android:translateY="0">
+
+        <!-- 1. Left Vertical Stem - Base / Outer Ribbon -->
+        <path
+            android:pathData="M 24,24 
+                              C 24,18 29,13 36,13 
+                              C 42,13 46,17 48,22 
+                              L 48,104 
+                              C 48,111 43,115 36,115 
+                              C 29,115 24,111 24,104 
+                              Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="24"
+                    android:startY="13"
+                    android:endX="48"
+                    android:endY="115"
+                    android:type="linear">
+                    <item android:color="#70E000" android:offset="0.0" />
+                    <item android:color="#38B000" android:offset="0.3" />
+                    <item android:color="#007200" android:offset="0.7" />
+                    <item android:color="#004B23" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- 2. Left Stem - Swirling Inner Ribbon Curve -->
+        <path
+            android:pathData="M 24,36 
+                              C 28,24 38,18 48,24 
+                              C 48,42 32,54 25,72 
+                              C 24,70 24,45 24,36 
+                              Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="24"
+                    android:startY="20"
+                    android:endX="48"
+                    android:endY="72"
+                    android:type="linear">
+                    <item android:color="#004B23" android:offset="0.0" />
+                    <item android:color="#007200" android:offset="0.5" />
+                    <item android:color="#1B4332" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- 3. Left Stem - Inner Light Green Accent Wave -->
+        <path
+            android:pathData="M 25,48 
+                              C 30,55 35,68 38,80 
+                              C 38,95 32,106 25,100 
+                              C 24,96 24,80 25,48 
+                              Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="25"
+                    android:startY="48"
+                    android:endX="38"
+                    android:endY="100"
+                    android:type="linear">
+                    <item android:color="#95D5B2" android:offset="0.0" />
+                    <item android:color="#52B788" android:offset="0.6" />
+                    <item android:color="#2D6A4F" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- 4. Upper Right Diagonal Arm / Leaf Blade -->
+        <path
+            android:pathData="M 46,70 
+                              C 50,56 70,30 94,18 
+                              C 106,12 112,14 110,22 
+                              C 108,30 95,48 76,68 
+                              C 62,82 52,78 46,70 
+                              Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="46"
+                    android:startY="16"
+                    android:endX="110"
+                    android:endY="75"
+                    android:type="linear">
+                    <item android:color="#9EF01A" android:offset="0.0" />
+                    <item android:color="#38B000" android:offset="0.4" />
+                    <item android:color="#007200" android:offset="0.8" />
+                    <item android:color="#004B23" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- 5. Central Fold / Junction Wave -->
+        <path
+            android:pathData="M 45,62 
+                              C 45,50 56,58 64,68 
+                              C 56,76 48,82 45,88 
+                              Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="45"
+                    android:startY="50"
+                    android:endX="64"
+                    android:endY="88"
+                    android:type="linear">
+                    <item android:color="#52B788" android:offset="0.0" />
+                    <item android:color="#74C69D" android:offset="0.5" />
+                    <item android:color="#95D5B2" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- 6. Lower Right Diagonal Leg / Curving Ribbon -->
+        <path
+            android:pathData="M 48,68 
+                              C 60,60 76,75 90,95 
+                              C 98,106 108,112 110,114 
+                              C 107,116 98,116 88,112 
+                              C 72,106 58,92 48,78 
+                              Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="48"
+                    android:startY="60"
+                    android:endX="110"
+                    android:endY="116"
+                    android:type="linear">
+                    <item android:color="#004B23" android:offset="0.0" />
+                    <item android:color="#007200" android:offset="0.4" />
+                    <item android:color="#38B000" android:offset="0.75" />
+                    <item android:color="#70E000" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- 7. Lower Leg Vibrant Highlight Wave -->
+        <path
+            android:pathData="M 52,72 
+                              C 64,72 78,85 92,104 
+                              C 86,108 76,102 65,92 
+                              Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="52"
+                    android:startY="72"
+                    android:endX="92"
+                    android:endY="108"
+                    android:type="linear">
+                    <item android:color="#52B788" android:offset="0.0" />
+                    <item android:color="#70E000" android:offset="0.7" />
+                    <item android:color="#AACC00" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+    </group>
+</vector>
